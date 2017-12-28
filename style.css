@@ -1,0 +1,39 @@
+table { 
+  background-color: white;
+  font-family: arial, sans-serif;
+  /*font-weight: bold;*/
+  color:pink;
+  margin: 0 auto;
+}
+
+body {
+  background-color: black;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+td {
+  padding: 8px;
+  background: #444;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.wall:after {
+  content: '♀';
+  color: pink;
+}
+
+.player:after {
+  content: '♂';
+  color: lightblue;
+}
+
+.finish:after {
+  content: '†';
+  color: gold;
+}
